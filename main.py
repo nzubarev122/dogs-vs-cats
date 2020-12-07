@@ -14,7 +14,7 @@ from model import *
 
 
 class Trainer():
-    def __init__(self,model,path='data/Cat_Dog_data/'):
+    def __init__(self,model,path='Cat_Dog_data/'):
         self.device  = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         self.image_size = (64, 64)
         self.image_row_size = self.image_size[0] * self.image_size[1] * 3
