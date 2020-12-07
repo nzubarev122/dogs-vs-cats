@@ -93,7 +93,7 @@ class Trainer():
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('-file_dir',default='data/Cat_Dog_data/',type=str,help='FILE DIR')
+    parser.add_argument('-file_dir',default='Cat_Dog_data/',type=str,help='FILE DIR')
     parser.add_argument('-batch_size',default=64,type=int,help='BATCH SIZE')
     parser.add_argument('-lr',default=0.001,type=float, help='LEARNING RATE')
     parser.add_argument('-epoch',default=5,type=int, help='EPOCH')
