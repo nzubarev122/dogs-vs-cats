@@ -115,4 +115,4 @@ if __name__ == '__main__':
 
     trainer = Trainer(model,path=args.file_dir)
     trainer.train(epochs=args.epoch,lr=args.lr,batch_size=args.batch_size)
-    trainer.test()
+#    trainer.test()
